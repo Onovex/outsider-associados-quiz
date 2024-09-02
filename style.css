@@ -265,7 +265,7 @@ body {
 .step-button {
     cursor: pointer;
     background-color: transparent;
-    opacity: 1;
+    opacity: 0;
     font-family: inherit;
 
     width: calc(100% - 50px);
