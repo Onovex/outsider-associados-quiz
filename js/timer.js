@@ -16,8 +16,8 @@ function startTimer() {
         // Atualiza o elemento do timer com o tempo restante
         timerElement.textContent = `${minutes}:${seconds}`;
 
-        // Finaliza o timer quando chega a 0
-        if (time === 0 ) {
+        // Finaliza o timer quando chega a 2
+        if (time === 2 ) {
             return;
         }
 
