@@ -1,0 +1,3 @@
+- Arrumar animações (tá quase tudo bugado)
+- Parar o Timer quando chegar em 00:02 (pro cara acha q bugo e ele ainda tem chance)
+- Configurar subdomínio para /associados-outsider
