@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&display=swap');
+
 :root {
     --purple-dark: #926BFF;
     --emphasis-color: #A07EFF;
@@ -13,7 +15,7 @@ html, body {
     height: 100%;
     width: 100%;
 
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .text-gradient {
@@ -37,7 +39,7 @@ body {
     opacity: 0;
     display: flex;
 
-    max-width: 486px;
+    max-width: 460px;
     width: 80vw;
 
     align-items: center;
@@ -45,7 +47,7 @@ body {
     justify-content: space-between;
     gap: 40px;
     
-    padding: 35px 25px;
+    padding: 40px 25px;
 
     border: 1px solid var(--border-color);
     border-radius: 21px;
@@ -64,7 +66,7 @@ body {
     position: relative;
     z-index: 2;
 
-    max-width: 480px;
+    max-width: 460px;
     width: 90vw;
 
 
@@ -73,7 +75,7 @@ body {
     flex-direction: column;
     gap: 45px;
     
-    padding: 35px 25px;
+    padding: 55px 25px;
 
     border: 1px solid var(--border-color);
     border-radius: 21px;
@@ -92,7 +94,7 @@ body {
     position: relative;
     z-index: 2;
 
-    max-width: 480px;
+    max-width: 460px;
     width: 90vw;
 
 
@@ -188,7 +190,8 @@ body {
 
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 11px;
+    width: 200px;
 }
 
 .limited-text {
@@ -237,7 +240,7 @@ body {
     gap: 10px;
     opacity: 1;
 
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     transition: opacity 0.5s ease-in-out;
 
 }
@@ -256,13 +259,14 @@ body {
 }
 
 .steps-container-yes {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .step-button {
     cursor: pointer;
     background-color: transparent;
     opacity: 1;
+    font-family: inherit;
 
     width: calc(100% - 50px);
 
@@ -270,19 +274,19 @@ body {
     border-radius: 8px;
     border: 1px solid var(--border-color);
 
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 500;
     text-align: center;
 
     background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.14));
     min-height: 50px;
-    padding: 10px 20px;
+    padding: 15px 18px;
 
     transition: opacity 0.5s ease-in-out;
 }
 
 .step-button:hover {
-    /* background: linear-gradient(rgba(144, 144, 144, 0.15), rgba(255, 255, 255, 0.14));; */
+    background: linear-gradient(rgba(144, 144, 144, 0.15), rgba(255, 255, 255, 0.14));;
 }
 
 a {
@@ -297,7 +301,7 @@ a {
 }
 
 .logo {
-    width: 170px;
+    width: 155px;
 }
 
 /* final */
@@ -306,7 +310,7 @@ a {
     color: rgb(176 176 176);
 
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
 
     line-height: 150%;
     text-align: center;
@@ -353,6 +357,7 @@ a {
 .title {
     text-align: center;
     font-size: 30px;
+    max-width: 420px;
 }
 
 .emphasis {
@@ -360,7 +365,7 @@ a {
 }
 
 .emphasis-gradient {
-    background: linear-gradient(0.35turn, var(--emphasis-color), #FFFFFF);
+    background: linear-gradient(0.35turn, var(--emphasis-color) 20%, #FFFFFF);
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -368,7 +373,7 @@ a {
 
 .brilho {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 115%;
     width: 50px;
     height: 50px;
