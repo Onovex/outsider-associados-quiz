@@ -1,2 +1,1 @@
-- Arrumar animações (tá quase tudo bugado)
 - Configurar subdomínio para /associados-outsider
